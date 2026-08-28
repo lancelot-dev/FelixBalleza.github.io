@@ -100,7 +100,15 @@
   .btn-primary:hover { box-shadow: 0 8px 20px rgba(232,135,30,0.35); }
   .btn-ghost { background: rgba(255,255,255,0.08); color: #fff; border: 1px solid rgba(255,255,255,0.25); }
   .btn-ghost:hover { background: rgba(255,255,255,0.15); }
-
+.disponible{
+    margin-top:18px;
+    font-style: italic;
+    font-size:14px;
+    letter-spacing: 1 px;
+    color: rgba(255,255,255,0.55);
+    font-weight:300
+    text-align: center;
+  }
   /* ---- SECTIONS ---- */
   section { max-width: 880px; margin: 0 auto; padding: 64px 24px; }
   .eyebrow {
@@ -112,6 +120,7 @@
     text-transform: uppercase;
     color: var(--amber);
     margin-bottom: 28px;
+
   }
   .eyebrow::after { content:""; flex:1; height:1px; background: var(--line); }
 
